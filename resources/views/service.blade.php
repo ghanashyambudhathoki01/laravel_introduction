@@ -180,8 +180,6 @@
             </div>
 
         </div>
-
-        <!-- Contact Call To Action -->
         <div class="contact-cta">
             <h3>Let’s Work Together</h3>
             <p>

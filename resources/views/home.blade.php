@@ -13,6 +13,47 @@
             background-color: #f4f6f8;
         }
 
+        .navbar {
+            width: 100%;
+            background-color: #4169e1;
+            padding: 0 0 0 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .navbar-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            position: relative;
+        }
+        .navbar-logo {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .navbar-links {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            width: 100%;
+        }
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .navbar-links a:hover {
+            color: #e63946;
+        }
+
         .container{
             max-width: 900px;
             margin: 80px auto;
@@ -59,6 +100,17 @@
     </style>
 </head>
 <body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" class="navbar-logo">Protfolio</a>
+            <div class="navbar-links">
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+                <a href="/service">Service</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="container">
         <h2>Learning Phase of Laravel with Full Stack Development</h2>
